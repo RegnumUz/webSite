@@ -1,4 +1,5 @@
-import Layout from '../components/Layout';
+import React from 'react';
+import Layout from '../components/Layout/index.jsx';
 import Home from '../pages/Home/index';
 import Bags from '../pages/Bags/index';
 import Sneakers from '../pages/Sneakers/index';

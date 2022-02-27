@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-evenly;
+    background: gold;
+}
+
+.newBrend {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 15%;
+}
+
+.link {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+

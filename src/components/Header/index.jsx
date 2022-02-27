@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../assets/style/home.css";
+import '../../assets/style/header.css'
 
 const index = () => {
   return (
-        <div className="headerNav nav">
-          <Link className="navPage mr-50" to='/' >HOME</Link>
-          <Link className="navPage mr-50" to='/bags' >BAGS</Link>
-          <Link className="navPage mr-50" to='/sneakers' >SNEAKERS</Link>
-          <Link className="navPage mr-50" to='/belt' >BELT</Link>
-          <Link className="navPage" to='/contact' >CONTACT</Link>
+        <div>
+          <div className="navbar dflex">
+            <span className="newBrend">newBrend</span>
+            <Link className="link " to='/' >HOME</Link>
+            <Link className="link" to='/bags' >BAGS</Link>
+            <Link className="link" to='/sneakers' >SNEAKERS</Link>
+            <Link className="link" to='/belt' >BELT</Link>
+            <Link className="link" to='/contact' >CONTACT</Link>
+          </div>
         </div>
   );
 };
