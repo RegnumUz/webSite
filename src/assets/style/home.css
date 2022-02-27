@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* ========== header css start ========== */
+
+.select {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-size: 20px;
+}
+.select:last-child {
+  width: 60px;
+}
+.select:hover {
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.navLink {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0 10px;
+  color: #373737;
+  font-family: Poppins;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  font-size: 20px;
+}
+.navLink:hover,
+.navLink .icon:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.navLink .icon {
+  color: #373737;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-search {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.btn-search:focus {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.headerNav button:hover,
+.headerNav button icon:hover {
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.navLogo {
+  transition: 0.2s ease-in-out;
+}
+.navLogo:hover {
+  opacity: 80%;
+}
+
+.navPage {
+  color: #373737;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.navPage:hover {
+  color: #40bfff;
+}
+.navPage:active {
+  color: #40bfff;
+}
+
+/* ========== header css end ========== */
+
+/* ========== home header css start ========== */
+
+.homeHeader {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  align-content: center;
+  background: url("../images/home/Promotion Image.png") no-repeat center center;
+  background-size: cover;
+}
+
+.homeHeaderText {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* ========== home header css end ========== */
+
+/* ========== home section css start ========== */
+
+.productSection {
+  text-align: center;
+}
+.productFilterBox {
+  width: auto;
+  height: 30px;
+}
+.productBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px 34px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.productPrice {
+  color: #40bfff;
+}
+
+.filterActive {
+  color: #40bfff;
+  background: white;
+  border: none;
+  border-bottom: 3px solid #40bfff;
+  margin: 0 15px;
+  transition: 0.1s ease-in-out;
+}
+
+.filterNoActive {
+  background: white;
+  border: none;
+  margin: 0 15px;
+  transition: 0.1s ease-in-out;
+}
+
+.filterHover:hover {
+  color: #40bfff;
+  border-bottom: 3px solid #40bfff;
+}
+
+/* ========== home section css end ========== */
+
+/* ========== home blue section css start ========== */
+
+.homeBlueSection {
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+  background-color: #40bfff;
+}
+
+.blueShopSection {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.blueSectionLeft {
+  margin-left: 130px;
+  color: white;
+}
+.blueSectionLeft h1 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 55px;
+}
+.blueSectionLeft p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 24px;
+}
+.blueSectionLeft .shopBlue {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.blueSectionLeft .shopBlue:hover {
+  color: rgba(255, 255, 255, 0.767);
+  border-bottom: solid 3px white;
+}
+
+.blueSectionRight {
+  width: 650px;
+  height: 600px;
+}
+
+.blueSectionRight img {
+  margin-top: -100px;
+  width: 650px;
+  position: absolute;
+}
+
+/* ========== home section css end ========== */
+
+/* ========== footer css start ========== */
+
+.footer {
+  width: 100%;
+  height: 700px;
+  background: #bcddfe;
+}
+
+/* ===== first section ========= */
+
+.footer .footerFirstText {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  grid-column-gap: 200px;
+  grid-row-gap: 0px;
+}
+
+.footerFirstText .footerBox:nth-child(1) {
+  width: 221px;
+}
+.footerFirstText .footerBox:nth-child(2) {
+  width: 200px;
+  margin-left: 110px;
+}
+.footerFirstText .footerBox:nth-child(3) {
+  width: 150px;
+}
+
+.footerBox h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.footerBox h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.footerBox p {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/* ===== second section ========= */
+
+.footer .footerSecondText {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-column-gap: 200px;
+  grid-row-gap: 0px;
+}
+
+.footer .footerSecondText .footerLink {
+  display: block;
+  font-family: Poppins;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.footer .footerSecondText .footerLink:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.footerEnd {
+  width: 100%;
+  height: 100px;
+}
+
+.footerCreditCardBox {
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.footerCreditCardBox .footerImg {
+  width: 100%;
+}
+
+/* ========== footer css end ========== */
+
+/* ========== my css start ========== */
+
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-50 {
+  margin-right: 100px;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.border-bottom-white {
+  padding: 100px 0;
+  border-bottom: 3px solid white;
+}
+
+/* ========== my css end ========== */
+
+/* ========== loading spinner start ========== */
+
+.spinner {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.spinner div {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #40bfff;
+  animation: sk-bouncedelay 1.4s infinite;
+}
+.bounce1 {
+  animation-delay: -0.32s;
+}
+.bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+  0% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+/* ========== loading spinner end ========== */
